@@ -7,4 +7,3 @@ edition = "2021"
 
 [dependencies]
 ldk-node = { git = "https://github.com/tnull/ldk-node", branch = "2024-02-add-bolt12-support" }
-bitcoin = "0.32.0"
