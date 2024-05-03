@@ -6,4 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
 ldk-node = { git = "https://github.com/tnull/ldk-node", branch = "2024-02-add-bolt12-support" }
+bitcoin = "0.30.2"
+tokio = "1.37.0"
